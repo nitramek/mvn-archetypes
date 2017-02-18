@@ -11,3 +11,6 @@ This archetype generates simple maven project with lombok, executable jar junit 
 ```
 mvn archetype:generate -DarchetypeArtifactId=java8-executable-jar-archetype -DarchetypeGroupId=cz.nitramek -DarchetypeVersion=0.0.1 -DgroupId=cz.nitramek -DartifactId=myProject -DinteractiveMode=false
 ```
+
+
+If you want to use IntellJ idea to generate the project you need to specify repository `local`. Then when you are creating the project you let Maven to create the project folder.
