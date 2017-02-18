@@ -8,7 +8,7 @@
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
     <properties>
-        <app.main.class>nitramek.Main</app.main.class>
+        <app.main.class>cz.nitramek.Main</app.main.class>
     </properties>
     <build>
         <plugins>
