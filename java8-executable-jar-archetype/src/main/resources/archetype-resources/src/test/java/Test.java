@@ -1,4 +1,4 @@
-package ${package}.tests;
+package ${package};
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
