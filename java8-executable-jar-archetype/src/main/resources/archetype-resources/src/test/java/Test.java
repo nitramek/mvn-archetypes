@@ -1,4 +1,4 @@
-package cz.nitramek.tests;
+package ${package}.tests;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

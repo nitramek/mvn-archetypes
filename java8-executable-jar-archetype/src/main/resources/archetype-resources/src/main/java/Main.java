@@ -1,4 +1,4 @@
-package cz.nitramek;
+package ${package};
 
 public class Main {
 

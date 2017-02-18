@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="java8-executable-jar-archetype">
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+    </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/test/java</directory>
+    </fileSet>
+     <fileSet encoding="UTF-8">
+      <directory>src/main/resources</directory>
+    </fileSet>
+     <fileSet  encoding="UTF-8">
+      <directory>src/test/resources</directory>
+    </fileSet>
+  </fileSets>
+    <requiredProperties>
+        <requiredProperty key="package">
+            <defaultValue>${groupId}.${artifactId}</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="version">
+            <defaultValue>0.0.1</defaultValue>
+        </requiredProperty>
+    </requiredProperties>
+</archetype-descriptor>
